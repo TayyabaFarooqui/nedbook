@@ -317,7 +317,7 @@ var buildUpdateStatement = function buildUpdateStatement(req) {
   statement += " WHERE STD_ID = :STD_ID";
   bindValues.STD_ID = req.params.STD_ID;
   statement = "UPDATE STUDENT SET " + statement;
-  console.log('bad m');
+  
   return {
     statement: statement,
     bindValues: bindValues
