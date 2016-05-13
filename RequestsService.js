@@ -16,8 +16,6 @@
       console.log('id' + id);
      var temp={
         STD_ID:JSON.stringify(id),
-
-       //STD_NAME:'tayyaba'
         TOKEN:JSON.stringify(device_token)
 
       };
