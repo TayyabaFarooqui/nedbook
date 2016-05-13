@@ -30,7 +30,7 @@
        $http.put('http://192.168.1.105:3000/pp/'+id,temp)
 
         .success(function(response){
-          console.log("sarah 1");
+          console.log("1");
           $ionicLoading.hide();
           deferred.resolve(response);
 
